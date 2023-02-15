@@ -5,5 +5,6 @@
   <!-- use currency pipe to transform price from no. to currency string -->
   <h4> {{ product.price | currency }} </h4>
   <p> {{product.description}} </p>
+  <button type="button" (click)="addToCart(product)" >Buy</button>
 
 </div>
