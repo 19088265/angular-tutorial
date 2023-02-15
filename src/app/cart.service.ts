@@ -13,11 +13,6 @@ export class CartService {
     this.items.push(product);
   }
 
-  removeItem(product: Product) {
-    let index = this.items.indexOf(product);
-    this.items.splice(index, 0);
-  }
-
   //Retrieve products from items array
   getItems() {
     return this.items;
