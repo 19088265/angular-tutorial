@@ -9,7 +9,9 @@
 
   <p *ngIf="product.description">Description: {{ product.description }}</p>
 
-  <button type="button">Share</button>
+  <button type="button" (click)="share()" >
+    Share
+  </button>
 </div>
 
 <!-- 
