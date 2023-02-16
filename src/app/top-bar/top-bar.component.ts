@@ -11,9 +11,9 @@ export class TopBarComponent {
     const checkBtn = document.querySelector('#btnCheck') as HTMLDivElement;
     const cartIcon = document.querySelector('#cartIcon') as HTMLDivElement;
 
-    checkBtn.style.backgroundColor = '#1976d2';
-    cartIcon.style.color = 'white';
-    //cartIcon.style.marginRight = '1000px';
+    checkBtn.style.width = '40px';
+    checkBtn.style.borderRadius = '50px';
+    cartIcon.style.marginLeft = '-70%';
   }
 }
 
