@@ -52,6 +52,23 @@ a:hover {
   opacity: 0.8;
 }
 
+/* Checkout button animation code */
+@keyframes checkoutHover {
+  from {
+    font-size: initial;
+  }
+  to {
+    font-size: 18px;
+  }
+}
+
+#btnCheck:hover {
+  opacity: 1;
+  animation-name: checkoutHover;
+  animation-duration: 100ms;
+  font-size: 18px;
+}
+
 /* Input */
 
 input {
@@ -96,7 +113,7 @@ button:disabled {
   cursor: auto;
 }
 
-/* Main page button animation code */
+/* Main page buttons animation code */
 @keyframes btnHover {
   from {
     font-size: 14px;
@@ -126,8 +143,6 @@ button:disabled {
   color: #1976d2;
   padding-right: 4px;
 }
-
-
 
 /* Top Bar */
 

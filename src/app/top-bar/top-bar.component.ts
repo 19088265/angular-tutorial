@@ -9,7 +9,11 @@ export class TopBarComponent {
   //Change checkout button text when clicked
   checkout() {
     const checkBtn = document.querySelector('#btnCheck') as HTMLDivElement;
-    checkBtn.style.color = 'white';
+    const cartIcon = document.querySelector('#cartIcon') as HTMLDivElement;
+
+    checkBtn.style.backgroundColor = '#1976d2';
+    cartIcon.style.color = 'white';
+    //cartIcon.style.marginRight = '1000px';
   }
 }
 
