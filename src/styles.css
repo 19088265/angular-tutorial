@@ -127,6 +127,10 @@ button:disabled {
   padding-right: 4px;
 }
 
+.fancy-button:active {
+  color: white;
+}
+
 /* Top Bar */
 
 app-top-bar {
