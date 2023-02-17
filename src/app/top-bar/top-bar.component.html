@@ -1,9 +1,14 @@
-<a [routerLink]="['/']">
+<a [routerLink]="['/']" id="home" (click)="home()">
   <h1>Takealot</h1>
 </a>
 
-<a routerLink="/cart" class="button fancy-button" id="btnCheck"  (click)="checkout()"
-  ><i class="material-icons" id="cartIcon">shopping_cart</i>Checkout</a
+<i class="material-icons" id="cartIcon">shopping_cart</i>
+<a
+  routerLink="/cart"
+  class="button fancy-button"
+  id="btnCheck"
+  (click)="checkout()"
+  >Checkout</a
 >
 
 <!-- 
