@@ -11,6 +11,10 @@ export class TopBarComponent {
     const checkBtn = document.querySelector('#btnCheck') as HTMLDivElement;
     const cartIcon = document.querySelector('#cartIcon') as HTMLDivElement;
 
+    //checkBtn.style.transitionProperty = 'width, borderRadius';
+    //checkBtn.style.transitionDuration = '1000ms';
+    //checkBtn.style.transitionTimingFunction = 'ease';
+
     checkBtn.style.width = '40px';
     checkBtn.style.borderRadius = '50px';
     cartIcon.style.marginLeft = '-70%';
