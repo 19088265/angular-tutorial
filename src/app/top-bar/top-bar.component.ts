@@ -13,7 +13,7 @@ export class TopBarComponent {
 
     //Animation
 
-    //checkBtn.style.width = '40px';
+    checkBtn.style.width = '40px';
     cartIcon.style.marginLeft = '-70%';
   }
 }

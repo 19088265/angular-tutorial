@@ -55,7 +55,7 @@ a:hover {
 /* Checkout button animation code */
 @keyframes checkoutHover {
   0% {
-    width: 25%;
+    width: 20%;
   }
   25% {
     width: -20%;
@@ -71,7 +71,7 @@ a:hover {
   }
 }
 
-#btnCheck:hover {
+#btnCheck:active {
   animation-name: checkoutHover;
   animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
   animation-duration: 700ms;
@@ -81,14 +81,11 @@ a:hover {
 /* Checkout transitions */
 #btnCheck {
   border-radius: 50px;
-  transition-property: width;
-  transition-duration: 1000ms;
-  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 #cartIcon {
   transition-property: margin-left;
-  transition-duration: 5000ms;
+  transition-duration: 0ms;
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
