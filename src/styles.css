@@ -55,17 +55,17 @@ a:hover {
 /* Checkout button animation code */
 @keyframes checkoutHover {
   from {
-    width: initial;
+    transform: translateX(-10px);
   }
   to {
-    width: 40px;
+    transform: translateX(initial);
   }
 }
 
 #btnCheck:hover {
   animation-name: checkoutHover;
   animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-  animation-duration: 500ms;
+  animation-duration: 1000ms;
   width: 40px;
 }
 
