@@ -54,28 +54,36 @@ a:hover {
 
 /* Checkout button animation code */
 @keyframes checkoutHover {
-  from {
-    transform: translate(initial);
+  0% {
+    width: 25%;
   }
-  to {
-    transform: translate(initial);
+  25% {
+    width: -20%;
+  }
+  50% {
+    width: -15%;
+  }
+  75% {
+    width: -10%;
+  }
+  100% {
+    width: -5%;
   }
 }
 
-#btnCheck:active {
+#btnCheck:hover {
   animation-name: checkoutHover;
-  animation-timing-function: linear;
-  animation-duration: 9000ms;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-duration: 700ms;
   width: 40px;
 }
 
 /* Checkout transitions */
 #btnCheck {
   border-radius: 50px;
-  transition-property: border-radius;
-  transition-duration: 500ms;
-  transition-delay: 0ms;
-  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-property: width;
+  transition-duration: 1000ms;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 #cartIcon {
