@@ -13,19 +13,12 @@ export class TopBarComponent {
 
     //Animation
 
-    checkBtn.style.width = '40px';
-    cartIcon.style.marginLeft = '-70%';
+    //checkBtn.style.width = '40px';
+    //cartIcon.style.marginLeft = '-70%';
   }
 
   //Home button click
-  home() {
-    const homeLogo = document.querySelector('#home') as HTMLDivElement;
-    const checkBtn = document.querySelector('#btnCheck') as HTMLDivElement;
-    const cartIcon = document.querySelector('#cartIcon') as HTMLDivElement;
-
-    checkBtn.style.width = 'initial';
-    cartIcon.style.marginLeft = 'initial';
-  }
+  home() {}
 }
 
 /*
